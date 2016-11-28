@@ -1,0 +1,198 @@
+/********************* Control Panel ********************************/
+#a_title{
+	float: left;
+	width: 47%;
+	text-align: right;
+	height: 10px;
+}
+#a_title h2{
+	margin-top: 13px;
+}
+#headerLinks{
+	padding-top: 20px;
+}
+h3{
+	margin-top: 0px;
+}
+.srch {
+	width: 250px;
+	height: 20px;
+	outline: none;
+	text-indent: 5px;
+	font-size: medium;
+	border-style: solid;
+	border-color: #006699;
+	border-radius: 3px;
+}
+.space {
+	height: 20px;
+	font-size:0;
+	line-height:0;
+	width:100%;
+	clear:both;
+}
+
+/********** Products page ***************/
+.admin_table table {
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+}
+.admin_table {
+	font: normal 12px/150% Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	border: 1px solid #006699;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	clear: both;
+	margin-bottom: 20px;
+}
+.admin_table table td,
+.admin_table table th {
+	padding: 7px;
+}
+.admin_table table thead th {
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F));
+	background: -moz-linear-gradient( center top, #006699 5%, #00557F 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+	background-color: #006699;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	border-left: 1px solid #0070A8;
+}
+.admin_table table tbody td {
+	color: #00496B;
+	font-size: 14px;
+	border-bottom: 2px solid #E1EEF4;
+	font-weight: normal;
+}
+.id{
+	width: 10%;
+}
+.t_right{
+	text-align: right;
+	width: 10%;
+}
+.records{
+	float: left;
+	color: #0089ff;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	font-weight: normal;
+}
+.empty{
+	clear: both;
+}
+footer{
+	margin-top: 50px;
+}
+/******* Form *******/
+.addProduct table {
+	width: 60%;
+}
+.addProduct table th{
+	text-align: left;
+	width: 20%;
+}
+.addProduct table td{
+	text-align: left;
+}
+.addProduct input[type="text"],
+.addProduct textarea{
+	border: 1px solid #000000;
+	width: 100%;
+	height: 30px;
+	font-size: 90%;
+	padding-left: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+.addProduct textarea{
+	width: 160%;
+	height: 150px;
+	font-size: medium;
+}
+.addProduct select{
+	border: 1px solid #000000;
+	width: 40%;
+	height: 30px;
+	font-size: 90%;
+	margin: 5px 0px 5px 0px;
+	border-radius: 5px;
+	background-color: rgba(211, 211, 211, 0.55);
+}
+.addProduct input[type="file"]{
+	height: 26px;
+	font-size: 90%;
+	margin: 7px 0px 7px 0px;
+	
+}
+.addProduct table th span{
+	color: #ff0000;
+}
+/********* View Order **********/
+.view_order{
+	border: hidden;
+}
+.view_order table th{
+	font-size: medium;
+	width: 15%;
+}
+.view_order select{
+	border: 1px solid #000000;
+	width: 20%;
+	height: 30px;
+	font-size: 90%;
+	margin: 5px 0px 5px 0px;
+	border-radius: 5px;
+	background-color: rgba(211, 211, 211, 0.55);
+}
+.view_order textarea{
+	border: 1px solid #000000;
+	width: 80%;
+	height: 100px;
+	font-size: 90%;
+	padding-left: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+.view_order .no_border{
+	border-bottom: hidden;
+}
+.float_l{
+	float: left;
+}
+.float_r{
+	float: right;
+}
+.view_order .update_orders{
+	padding: 4px 10px 4px 10px;
+	margin-top: 29px;
+	background: #32CD32;
+}
+.view_order .update_orders:hover{
+	background: #228B22;
+}
+.view_order .invoice_orders{
+	margin-right: 200px;
+}
+.update_customer {
+	margin: 20px 0px 30px 138px;
+}
+.business_textarea textarea{
+	border: 1px solid #000000;
+	width: 300px;
+	height: 100px;
+	padding-left: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+.business_textarea{
+	padding-left: 10px;
+}
+
+
+
+
