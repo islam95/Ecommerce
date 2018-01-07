@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `admins` (
 --
 
 INSERT INTO `admins` (`id`, `first_name`, `last_name`, `email`, `password`) VALUES
-(1, 'Islam', 'Dudaev', 'islam89uk@gmail.com', 'islam895');
+(1, 'Islam', 'Dudaev', 'islam@gmail.com', 'islam');
 
 -- --------------------------------------------------------
 
@@ -379,8 +379,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `first_name`, `last_name`, `address_1`, `address_2`, `city`, `county`, `post_code`, `country`, `email`, `password`, `date`, `active`, `encode`) VALUES
-(1, 'Islam', 'Wolf', '7w', 'Bron Gre', 'Newcastle upon Tyne', 'Tyne and Wear', 'NW3 5NS', 'UK', 'islamwolf@gmail.com', 'cec776d1d50be955a0cadb53a823122ea97ed2ee82416895ad18987872c7db65f72cdf883ceeefa11ed7779e05d64a57', '2015-11-01 16:29:48', 1, '502543886201511011629481420271146'),
-(2, 'islam', 'wefdsfb', 'sdfdsk', 'dsf;lk', 'dsfds', 'sdpioepwo', 'sdf;kl', 'uk', 'islamuk@gmail.com', 'cec776d1d50be955a0cadb53a823122ea97ed2ee82416895ad18987872c7db65f72cdf883ceeefa11ed7779e05d64a57', '2015-11-01 20:34:20', 1, '78701053220151101203420729051514'),
+(1, 'Islam', 'Wolf', '7w', 'Bron Gre', 'Newcastle upon Tyne', 'Tyne and Wear', 'NW3 5NS', 'UK', 'islamw@gmail.com', 'cec776d1d50be955a0cadb53a823122ea97ed2ee82416895ad18987872c7db65f72cdf883ceeefa11ed7779e05d64a57', '2015-11-01 16:29:48', 1, '502543886201511011629481420271146'),
+(2, 'islam', 'wefdsfb', 'sdfdsk', 'dsf;lk', 'dsfds', 'sdpioepwo', 'sdf;kl', 'uk', 'islakkm@gmail.com', 'cec776d1d50be955a0cadb53a823122ea97ed2ee82416895ad18987872c7db65f72cdf883ceeefa11ed7779e05d64a57', '2015-11-01 20:34:20', 1, '78701053220151101203420729051514'),
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
